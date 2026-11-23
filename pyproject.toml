@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sentinel-cam-prototype"
+version = "0.1.0"
+description = "A bounded, human-reviewed obligation extraction prototype for CEN 4010"
+requires-python = ">=3.11"
+dependencies = ["pypdf>=5.0,<7"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9", "reportlab>=4,<6"]
+ai = ["openai>=1.60,<3"]
+
+[project.scripts]
+sentinel = "sentinel.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

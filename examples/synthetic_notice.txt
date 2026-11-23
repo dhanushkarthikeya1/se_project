@@ -1,0 +1,9 @@
+SYNTHETIC CLASSROOM EXAMPLE - NOT AN OFFICIAL NOTICE
+
+To: Example Condominium Association
+From: Example Local Building Office
+Date issued: 2026-10-30
+
+This fictional notice states that the association must notify the unit owners of the required milestone inspection within 14 days after receipt of this written notice and provide the date by which the inspection must be completed.
+
+This sample contains no real association or owner information. The CAM-recorded receipt date for the demo is entered separately at runtime.
